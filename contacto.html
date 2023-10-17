@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto GM</title>
+    <script src="contacto.js" defer></script>
+    <script src="https://kit.fontawesome.com/8d6b79b36f.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/c9b87a4bee.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="contenedor">
+        <header id="encabezado">
+            <a href="index.html"><i class="fa-sharp fa-solid fa-chess-knight fa-bounce"></i></a>
+            <h2 class="tituloprincipal">Genios en Movimiento</h2>
+            <h4>Club y Escuela de Ajedrez</h4>
+            <nav class="navbar">
+                <input type="checkbox" id="check" />
+                <label for="check" class="checkbtn">
+                    <i class="fa-solid fa-bars"></i>
+                </label>
+                <ul class="menu">
+                    <li><a href="index-personal.html#inicio">Inicio</a></li>
+                    <li><a href="index-personal.html#nosotros">Nosotros</a></li>
+                    <li><a href="index-personal.html#servicios">Servicios</a></li>
+                    <li><a href="index-personal.html#proyectos">Proyectos</a></li>
+                    <li><a href="index-personal.html#contacto">Contacto</a></li>
+                </ul>
+            </nav>
+        </header>
+        <footer class="form-header">
+            <h1>Contacto</h1>
+            <p><em>¡Esperamos tu consulta!</em></p>
+      
+            <form action="" method="get" class="formulario">
+                <div class="form-row">
+                    <label for="nombre">Nombre</label>
+                    <input id="nombre" name="nombre" placeholder="ingrese aqui su nombre"  type="text" />
+                </div>
+                <div class="form-row">
+                    <label for="email">Email</label>
+                    <input
+                      id="email"
+                      name="email"
+                      type="email"
+                      placeholder="jaimito@gmail.com"
+                    />
+                </div>
+                <div class="form-row">
+                    <label for="mensaje">Mensaje</label>
+                    <textarea id="mensaje" name="mensaje"></textarea>
+                </div>
+                <div class="form-row">
+                    <button>Enviar</button>
+                </div>
+            </form>
+          </footer>
+    </div>
+</body>
+</html>
